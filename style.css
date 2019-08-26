@@ -1,0 +1,40 @@
+body{
+    background-color: black
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: gray;
+    min-height: 100px;
+    padding: 10px;
+}
+
+footer{
+    background-color: gray;
+    min-height: 50px; 
+    clear: both;
+    text-align: center;
+}
+
+#menu{
+    background-color: yellow;
+    min-height: 200px;
+    min-width: 40%;
+    float: right;
+}
+
+#conteudo{
+    background-color: orange;
+    min-height: 200px;
+    min-width: 60%;
+    float: left;
+}
+
+.container{
+    width: 960px;
+    margin: 0px auto;
+}
